@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* more headers goes there */
-/* betty style doc for function main goes there */
-
+/**
+ * main - print if the number is positive, zero, or nagative
+ *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or nagative
+ * Return: 0
+ */
 int main(void)
 
 {
