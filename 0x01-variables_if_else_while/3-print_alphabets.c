@@ -7,25 +7,16 @@
  * Return: 0
  */
 int main(void)
-
 {
-	char c = 'a';
-	while (c <= 'z')
-
+	char ch;
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
 	}
-
-	c = 'A';
-
-	while (c <= 'Z')
-
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
 	}
-
 	putchar('\n');
 	return (0);
 }
