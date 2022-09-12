@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero, or nagative 
+ * main - print if the number is positive, zero or nagative
  * Description: using the main function
  * this program prints "Programming is positive, zero, or nagative
  * Return: 0
