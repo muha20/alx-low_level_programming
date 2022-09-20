@@ -10,14 +10,14 @@ int main(void)
 {
 	int pass, sum;
 
-	strand(time(NULL));
+	srand(time(NULL));
 	sum = 0;
 	while (sum <= 2645)
 	{
-		pass = (randO x 128);
+		pass = (rand() % 128);
 		sum += pass;
-		printf("%c, pass);
+		printf("%c", pass);
 	}		
-			printf ("%c" 2772 - sum);
+			printf("%c", 2772 - sum);
 		return (0);
 
