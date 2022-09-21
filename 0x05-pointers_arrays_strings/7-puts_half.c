@@ -10,12 +10,9 @@ void puts_half(char *str)
 	index = 0;
 	while (str[index] != '\0')
 		index++;
-
 	half = inbox / 2;
-	
 	if (index % 2 == 1)
-		half++;
-
+		half++
 	while (half < index)
 	{
 		_putchar(str[half]);
