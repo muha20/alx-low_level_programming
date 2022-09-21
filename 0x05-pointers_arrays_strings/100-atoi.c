@@ -5,6 +5,7 @@
  *
  * Return: void
  */
+
 int _atoi(char *s)
 {
 	int sign;
@@ -19,8 +20,9 @@ int _atoi(char *s)
 		if (*temp == '-')
 			sign *= -1;
 		temp++;
-		}
+	}
 	if (*temp != '\0')
+	{
 		do {
 			num = num * 10 + (*temp - '0');
 			temp++;
@@ -28,4 +30,3 @@ int _atoi(char *s)
 }
 return (num * sign);
 }
-
