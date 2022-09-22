@@ -3,10 +3,10 @@
 
 /**
  * _strcat - Concatenates two string 
- * @dest: A pointer to the string to be concatenated upon.
- * @src: The source string to be appended to @dest.
+ * @dest: The destination string
+ * @src: The source string
  *
- * Return: A pointer to the destination string @dest.
+ * Return: A pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -22,6 +22,7 @@ char *_strcat(char *dest, char *src)
 		dest[dlen] = src[i];
 		dlen++;
 	}
+
 	dest[dlen] = '\0';
 	return (dest);
 }
