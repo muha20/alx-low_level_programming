@@ -3,10 +3,11 @@
  * _strncpy - Copy a string
  * @dest: The destination value
  * @src: the source value
+ * @n: number of elements
  * Return: char value
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int *n)
 {
 	int a = 0, b = 0;
 
