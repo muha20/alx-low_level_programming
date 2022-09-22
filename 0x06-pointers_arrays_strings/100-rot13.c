@@ -20,8 +20,8 @@ char *rot13(char *str)
 }
 
 /**
- * tranform_2 - helper function to map a letter with it's rot13 encoding
- * @X: char to be encoded
+ * transform_2 - helper function to map a letter with it's rot13 encoding
+ * @x: char to be encoded
  *
  * Return: the encoded char
  */
