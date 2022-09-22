@@ -2,7 +2,8 @@
 
 /**
  * rot13 - encodes a string using rot13
- * @str: the string tsrgeted
+ * @str: string to be encoded
+ *
  * Return: return the encoded string
  */
 
@@ -39,6 +40,7 @@ char transform_2(char x)
 			replacement = two[i];
 			break;
 		}
-		return (replacement);
+		i++;
 	}
+		return (replacement);
 }
