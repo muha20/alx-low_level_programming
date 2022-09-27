@@ -1,1 +1,1 @@
-write the descriptions of the task here as you understand it
+0x07 even more pointers arrays and strings
