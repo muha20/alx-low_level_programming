@@ -7,8 +7,7 @@
  */
 
 #include <stddef.h>
-
-int _putchar(char );
+int _putchar(char);
 void *_memset(void *s, char b, unsigned int n);
 char *memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
