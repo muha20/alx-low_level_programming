@@ -6,6 +6,7 @@
  *
  * Return: 1 if s is a palindrome, 0 otherwise
  */
+int find_strlen(char *s);
 int is_palindrome(char *s)
 {
 	int flag = 1;
