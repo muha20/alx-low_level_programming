@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * main - print name of the program
@@ -11,15 +12,11 @@
 
 int main(int argc, char *argv[])
 {
-	/*Declaring variable*/
-	int count = 0;
+	int n;
 
-	if (argc > 0)
+	for (n = 0; n < argc; n++)
 	{
-		/*WHILE - Print each arguments*/
-		while (count < argc)
-		{
-			printf("%s\n", argv[count]);
-		}
+		printf("%s\n", argv[count]);
 	}
+	return (0);
 }
