@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main print the multiplication of two integers
+ * main - print the multiplication of two integers
  * @argc: Argument count
  * @argv: argument vector
  * Return: 0 if true, 1 if false
