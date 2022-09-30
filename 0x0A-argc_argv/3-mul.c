@@ -10,14 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int index, multiplication;
 
-	if (argc == 3)
+	multiplication = 1;
+
+	if (argc < 3)
 	{
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		return (0);
+		printf("Error\n");
+		return (1);
 	}
-	printf("Error\n");
-	return (1);
+	for (index = 1; index < agrc; index++)
+	{
+		multiplication = multiplication * atoi(agrv[index]);
+	}
+	printf("%d\n", multiplication);
+	return (0);
 }
