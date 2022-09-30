@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	for (index = 1; index < agrc; index++)
+	for (index = 1; index < argc; index++)
 	{
-		multiplication = multiplication * atoi(agrv[index]);
+		multiplication = multiplication * atoi(argv[index]);
 	}
 	printf("%d\n", multiplication);
 	return (0);
