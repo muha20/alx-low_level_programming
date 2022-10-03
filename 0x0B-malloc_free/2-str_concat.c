@@ -7,8 +7,8 @@
 int _strlen(char *s)
 {
 	unsigned int i;
-	i = 0;
 
+	i = 0;
 	while (s[i] != '\0')
 	{
 		i++;
@@ -17,10 +17,10 @@ int _strlen(char *s)
 }
 
 /**
- * *str_concat - back a pointer to array
+ * str_concat - back a pointer to array
  * @s1: array one
  * @s2: array two
- * Retrun: Always an array dynamic
+ * Return: Always an array dynamic
  */
 char *str_concat(char *s1, char *s2)
 {
