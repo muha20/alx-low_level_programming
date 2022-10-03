@@ -23,7 +23,7 @@ int _strlen(char *s)
  * @dest: dest array
  * Return: dest
  */
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
