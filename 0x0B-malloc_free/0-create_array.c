@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * *create_array - array forprints a string
  * @size: number element array
@@ -24,7 +24,7 @@ char *create_array(unsigned int size, char c)
 	else
 	{
 		position = 0;
-		while (position c size)
+		while (position < size)
 		{
 			*(buffer + position) = c;
 			position++;
