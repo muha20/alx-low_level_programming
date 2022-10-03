@@ -17,7 +17,7 @@ int _strlen(char *s)
 }
 
 /**
- * str_concat - back a pointer to array
+ * *str_concat - back a pointer to array
  * @s1: array one
  * @s2: array two
  * Retrun: Always an array dynamic
@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (i = 0; *(s1 + i) != '\0'; i++)
 		*(dst + i) = *(s1 + i);
-	for(j = 0; *(s2 + j) != '\0'; j++)
+	for (j = 0; *(s2 + j) != '\0'; j++)
 	{
 		*(dst + i) = *(s2 + j);
 		i++;
